@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="connect-src 'self' blob:; form-action 'none'; object-src 'none'">
+  <base href="./original/">
+  <title>Urban Photo Safari 2003</title>
+  <style>
+    body { margin: 0; min-height: 100vh; padding: 20px; box-sizing: border-box; background: #dadcda url(bk-01.gif); }
+    main { max-width: 810px; margin: 3vh auto; }
+    ruffle-player { display: block; width: 100%; height: auto; aspect-ratio: 810 / 536; }
+  </style>
+</head>
+<body>
+  <main id="stage" aria-label="Urban Photo Safari 2003"></main>
+  <script src="../player/ruffle.js"></script>
+  <script>
+    const player = window.RufflePlayer.newest().createPlayer();
+    document.querySelector("#stage").append(player);
+    player.ruffle().load({
+      url: new URL("Main2.swf", document.baseURI).href,
+      base: document.baseURI,
+      autoplay: "on",
+      unmuteOverlay: "hidden",
+      allowScriptAccess: false,
+      openUrlMode: "deny"
+    });
+  </script>
+</body>
+</html>
