@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="The first Urban Photo Safari. Explore all nine photographers’ work from Kansas City on May 5, 2001.">
+  <title>2001 · Urban Photo Safari</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+<header><a class="brand" href="#top"><span class="mark" aria-hidden="true">◉</span> Urban Photo Safari</a><nav aria-label="Main"><a href="#gallery">Photographs</a><a href="#notes">Field notes</a></nav></header>
+<main id="top">
+  <section class="cover">
+    <div class="intro"><div class="folio">FIELD EDITION <b>001</b></div>
+      <h1>Urban<br>Photo Safari<span>.</span></h1>
+      <div class="dateline">Kansas City, Missouri <i></i> May 05, 2001</div>
+      <p>At eight on a Saturday morning, nine photographers set out with digital cameras and four hours to make a picture. This was the first Safari.</p>
+      <a class="cta" href="#gallery">Browse the photographs <span aria-hidden="true">↓</span></a>
+    </div>
+    <figure class="coverprint"><div class="printtop"><span>WINNING PHOTOGRAPH</span><span>2001 / KC</span></div>
+      <button id="open-cover" aria-label="Enlarge Kevin Sisemore’s winning photograph"><img src="images/KevinSisemore/9.jpg" alt="A gas station canopy and pumps reflected in rainwater" fetchpriority="high"></button>
+      <figcaption><span>Kevin Sisemore</span><small>FRAME 010</small></figcaption>
+    </figure>
+  </section>
+  <section id="gallery"><div class="sectionno">01 / PHOTOGRAPHS</div><h2>The contact sheets</h2>
+    <p>Each photographer chose ten frames for the vote. Start with those picks, or open their full roll from the day.</p>
+    <div class="controls"><label>Photographer <select id="artist"></select></label>
+      <label>Selection <select id="scope"><option value="vote">Voting entries</option><option value="roll">Full roll</option></select></label>
+      <output id="count" aria-live="polite"></output></div>
+    <div id="grid"></div>
+  </section>
+  <section id="notes"><div class="sectionno">02 / FIELD NOTES</div><h2>From the first disc</h2>
+    <blockquote>“Not only were contestants shooting for the grand prize, they were shooting for each other.”<cite>Dean Olufson, introduction to the 2001 CD</cite></blockquote>
+    <div class="notesbody"><p>Everyone took home a disc with the day’s photographs. The first ten in each gallery were the voting entries. Kevin Sisemore’s rain-soaked gas station took the prize. PurePLAY.tv and Netchemia sponsored the event.</p><a href="images/handout.png">Read the original rules handout ↗</a></div>
+  </section>
+</main>
+<footer>Urban Photo Safari · Kansas City · 2001 <a href="#top">Back to cover ↑</a></footer>
+<dialog id="viewer" aria-label="Photograph viewer"><div class="viewerbar"><span id="credit"></span><button id="close">Close ×</button></div><img id="large" alt=""><div class="viewerbar"><button id="prev" aria-label="Previous photograph">← Previous</button><span id="position"></span><button id="next" aria-label="Next photograph">Next →</button></div></dialog>
+</body></html>

@@ -1,0 +1,38 @@
+:root{--paper:#f7f4ec;--ink:#182c30;--accent:#b3462b;--rule:#c9c9ba;--mono:ui-monospace,Menlo,monospace}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
+a{color:inherit;text-underline-offset:4px}button,select{font:inherit;color:inherit}button,a,select{touch-action:manipulation}button{cursor:pointer}
+:focus-visible{outline:3px solid #0787a8;outline-offset:3px}
+header,main,footer{max-width:1320px;margin:auto;padding-inline:clamp(20px,5vw,72px)}
+header,nav,.brand,footer,.viewerbar,.dateline,.controls,.printtop,figcaption{display:flex;align-items:center}
+header,footer,.printtop,figcaption,.viewerbar{justify-content:space-between}
+header{padding-block:17px;border-bottom:1px solid var(--rule)}
+nav{gap:clamp(12px,3vw,40px);font-size:.88rem}nav a,.brand,.cta{text-decoration:none}nav a:hover{text-decoration:underline}
+.brand{gap:10px;font-weight:750;letter-spacing:-.04em}.mark{font-size:1.7rem;line-height:1}
+.cover{display:grid;grid-template-columns:1.15fr .85fr;gap:6%;align-items:center;padding:clamp(30px,4vw,60px) 0;border-bottom:1px solid var(--rule)}
+.folio,.sectionno,.printtop,small,.dateline,#count,#position{font:600 .69rem/1.5 var(--mono);letter-spacing:.09em}
+.folio,.sectionno{color:var(--accent)}.folio b{border:1px solid;padding:3px 7px;margin-left:6px}
+h1,h2,blockquote{font-family:Georgia,"Times New Roman",serif;font-weight:400}
+h1{font-size:clamp(66px,7.9vw,114px);line-height:.92;letter-spacing:-.075em;margin:30px 0}
+h1 span{color:var(--accent)}.dateline{flex-wrap:wrap;gap:10px;text-transform:uppercase;letter-spacing:.055em}.dateline i{height:1px;width:22px;background:var(--accent)}
+.intro p{max-width:41ch;font-size:1.08rem;margin:22px 0 30px}
+.cta{display:inline-flex;gap:32px;align-items:center;padding:13px 18px;background:var(--ink);color:white}.cta:hover{background:#354e55}
+.coverprint{margin:0;background:#31474f;color:#faf8f1;padding:16px clamp(16px,2.8vw,42px);box-shadow:3px 4px 0 #d5cdbf}
+.printtop,figcaption{gap:12px}.printtop{font-size:.59rem;margin-bottom:12px;color:#e4e9e5}
+.coverprint button{padding:0;border:0;background:transparent;display:block;width:100%;cursor:zoom-in}
+.coverprint img{width:100%;max-height:52vh;min-height:220px;object-fit:contain;display:block}
+figcaption{margin-top:12px;font:italic 1.1rem Georgia,serif}small{font-size:.59rem}
+#gallery,#notes{padding:54px 0;scroll-margin-top:14px}h2{font-size:clamp(40px,5.2vw,70px);line-height:1.04;letter-spacing:-.055em;margin:10px 0}
+#gallery>p{max-width:63ch}.controls{border-block:1px solid var(--rule);padding:14px 0;gap:20px;flex-wrap:wrap;margin:26px 0 22px}
+label{display:grid;gap:4px;font:600 .68rem var(--mono)}select{font:500 .94rem system-ui;background:transparent;padding:7px;border:1px solid #9caaab;border-radius:0}
+#count{margin-left:auto}#grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:22px 14px}
+.frame{padding:0;border:0;background:transparent;text-align:left;cursor:zoom-in}
+.frame img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain;background:#e6e2d8}.frame:hover img{outline:2px solid var(--accent)}
+.frame span{display:block;margin-top:5px;font:.67rem var(--mono);letter-spacing:.07em}
+#notes{border-top:1px solid var(--rule)}blockquote{font-size:clamp(25px,3vw,42px);line-height:1.2;max-width:32ch;margin:30px 0;color:#384f56}cite{display:block;font:.75rem var(--mono);margin-top:14px}
+.notesbody{max-width:63ch}.notesbody a{color:var(--accent)}footer{border-top:1px solid var(--rule);padding-block:22px;font:.73rem var(--mono);gap:18px}
+dialog{width:min(900px,96vw);padding:16px;background:#182b30;color:#f8f5eb;border:0}dialog::backdrop{background:#101b20ed}
+.viewerbar{gap:12px;font-size:.88rem}.viewerbar button{border:1px solid #91a0a1;background:transparent;padding:5px 12px}
+#large{width:100%;height:67vh;object-fit:contain;display:block;margin:12px 0}
+@media(max-width:750px){.cover{grid-template-columns:1fr;gap:28px}.coverprint{max-width:480px;width:100%;justify-self:center}.coverprint img{max-height:48vh}#grid{grid-template-columns:repeat(3,minmax(0,1fr))}.intro p{max-width:50ch}}
+@media(max-width:480px){header{align-items:flex-start}.brand{font-size:.9rem;gap:5px}nav{font-size:.76rem;gap:10px}#grid{grid-template-columns:repeat(2,minmax(0,1fr))}.controls{gap:10px}#count{width:100%}.dateline{font-size:.6rem}}
