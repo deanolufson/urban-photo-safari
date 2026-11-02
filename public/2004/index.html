@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#3a403b">
+  <title>Urban Photo Safari — Kansas City 2004</title>
+  <meta name="description" content="Urban Photo Safari Kansas City 2004, its contestants, photographs, and final votes.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="site-shell" id="home">
+    <header class="masthead">
+      <img src="assets/logo.jpg" width="356" height="61" alt="Urban Photo Safari — Kansas City 2004">
+    </header>
+
+    <div class="section-banner"><span aria-hidden="true">➜</span> HOME</div>
+
+    <div class="layout">
+      <nav class="side-nav" aria-label="2004 site sections">
+        <a class="current" href="index.html" aria-current="page">HOME</a>
+        <a href="what.html">WHAT IS IT?</a>
+        <a href="sign.html">SIGN UP</a>
+        <a href="outline.html">CONTEST OUTLINE</a>
+        <a href="map.html">GET A MAP</a>
+        <a href="gear.html">GET URBAN GEAR</a>
+        <a href="contestants.html">VIEW CONTESTANTS</a>
+        <a href="votes.html">VOTE TALLIES</a>
+      </nav>
+
+      <main class="main-panel">
+        <section class="story" id="story" aria-labelledby="story-title">
+          <h1 class="visually-hidden" id="story-title">Urban Photo Safari 2004</h1>
+          <div class="main-copy">
+            <figure class="winner">
+              <button class="image-button" type="button" data-open-gallery="0" aria-label="View the 2004 winning photo and gallery">
+                <img src="assets/winner-thumb.jpg" width="187" height="187" alt="The 2004 winning photograph: a geometric arrangement of overhead metal beams and cables">
+              </button>
+              <figcaption>Urban 2004 Winning Image<br>by Grant Generaux &amp; Josh Snyder</figcaption>
+            </figure>
+            <p>The votes are in and the winner has been declared: this year's winning image is from <button class="text-link" type="button" data-open-gallery="0">Grant Generaux &amp; Josh Snyder</button>, who very narrowly edged out the next most popular image.</p>
+            <p>Thanks to everyone who made it possible to create such a fantastic event this year! From our sponsors to the contestants, we at Urban want to thank all of you for a wonderful time.</p>
+            <p>Keep a close eye on the site this year as many changes are coming soon. We plan on intensifying our marketing efforts with the help of Indicia Design and creating a faster database with the talents of Netchemia.</p>
+            <p>If, for some reason, this is the first time you're seeing this site, poke around and see for yourself how fun this thing is. And make sure to show up for next year's Urban Photo Safari, tentatively planned for the weekend before Memorial Day.</p>
+            <p>Until then, have fun with the photos!<br>— Dean Olufson<br>— Urban Photo Safari Headquarters</p>
+          </div>
+
+          <aside class="updates" id="updates" aria-labelledby="updates-title">
+            <h2 id="updates-title">UPDATES</h2>
+            <article><time datetime="2004-06-06">06.06.2004</time><p>Safari 2004 voting is complete! The winner has been declared.</p></article>
+            <article><time datetime="2004-06-01">06.01.2004</time><p>Contestant voting begins. Winner to be decided Sat, June 5th at noon.</p></article>
+            <article><time datetime="2004-05-23">05.23.2004</time><p>Safari 2004 is a resounding success! Contestant photos to be posted soon.</p></article>
+            <article><time datetime="2004-05-19">05.19.2004</time><p>New Urban Gear Store launches.</p></article>
+            <article><time datetime="2004-05-12">05.12.2004</time><p>New site launch.</p></article>
+            <article><time datetime="2004-02-29">02.29.2004</time><p>Urban Photo Safari 2003 site wins an OMNI Gold Award.</p></article>
+            <img class="sponsors" src="assets/sponsors.jpg" width="185" height="234" alt="Original 2004 sponsor artwork: Netchemia, Indicia Design, Noventh">
+          </aside>
+        </section>
+
+        <section class="details" id="outline" aria-labelledby="outline-title">
+          <div class="subhead"><span aria-hidden="true">➜</span> THE IDEA</div>
+          <h2 id="outline-title">Four hours. One city. Many ways to see it.</h2>
+          <p>Friends with digital cameras met at Latte Land on the Country Club Plaza, received a downtown boundary map, and spent four hours photographing whatever caught their eye. Each person selected ten images to share and vote on. The results are on view here.</p>
+          <a class="gallery-link" href="#gallery">SEE THE WINNING SERIES <span aria-hidden="true">↘</span></a>
+        </section>
+
+        <section class="gallery" id="gallery" aria-labelledby="gallery-title">
+          <div class="subhead"><span aria-hidden="true">➜</span> 2004 WINNING SERIES</div>
+          <h2 id="gallery-title">Grant Generaux &amp; Josh Snyder</h2>
+          <p>Ten photographs from their contestant pages. Select an image to browse at full size.</p>
+          <div class="photo-grid" id="photo-grid"></div>
+        </section>
+      </main>
+    </div>
+    <footer>© 2004 Dean Olufson <a href="#home">BACK TO TOP ↑</a></footer>
+  </div>
+
+  <dialog id="photo-dialog" aria-label="Winning series photo viewer">
+    <div class="dialog-bar"><span>URBAN PHOTO SAFARI / 2004</span><button type="button" id="close-dialog" aria-label="Close photo viewer">CLOSE ×</button></div>
+    <img id="dialog-image" alt="">
+    <div class="dialog-controls"><button type="button" id="prev-photo">← PREVIOUS</button><span id="photo-counter"></span><button type="button" id="next-photo">NEXT →</button></div>
+  </dialog>
+</body>
+</html>
