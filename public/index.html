@@ -1,59 +1,112 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Urban Photo Safari</title>
-    <meta
-      name="description"
-      content="A small tribute to Urban Photo Safari, a Kansas City digital photography contest and meetup that ran through the 2000s."
-    >
-    <meta property="og:title" content="Urban Photo Safari">
-    <meta
-      property="og:description"
-      content="A small tribute to a Kansas City photo contest, meetup, and creative sprint from the early digital camera era."
-    >
-    <meta property="og:type" content="website">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <main class="page-shell">
-      <section class="intro" aria-labelledby="page-title">
-        <img class="logo" src="urbanLogo.svg" alt="Urban Photo Safari">
-        <p class="eyebrow">Kansas City, circa 2000-2010</p>
-        <h1 id="page-title">A photo contest, a meetup, and a four-hour excuse to see the city differently.</h1>
-        <p class="lede">
-          Urban Photo Safari began as a way for friends to learn their new digital cameras together.
-          It grew into a roaming creative challenge with a map, a deadline, and a lot of very different
-          ways of looking at the same streets.
-        </p>
-      </section>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1ff45">
+  <title>Urban Photo Safari — Same city. Different eyes.</title>
+  <meta name="description" content="Urban Photo Safari was a four-hour creative field test: one city, one boundary, and hundreds of different ways to see it.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="archive.css">
+</head>
+<body>
+  <div class="cursor" aria-hidden="true"></div>
+  <header class="site-head">
+    <a class="wordmark" href="#top" aria-label="Urban Photo Safari, home"><span>URBAN</span><span>PHOTO SAFARI</span></a>
+    <p class="coordinates">39.0997° N<br>94.5786° W</p>
+    <a class="head-cta" href="#archive">ARCHIVE ↘</a>
+  </header>
 
-      <section class="memory" aria-labelledby="memory-title">
-        <div>
-          <h2 id="memory-title">How It Worked</h2>
-          <p>
-            Contestants met at Latte Land on the Country Club Plaza, signed in, received a downtown
-            boundary map, and had four hours to shoot. Afterward, everyone turned in their photos,
-            chose their ten favorites, and voted on the final gallery.
-          </p>
-        </div>
-        <div>
-          <h2>The Prize</h2>
-          <p>
-            The winner earned admiration, an Amazon gift certificate, and a T-shirt printed with the
-            winning image. Everyone left with a CD of the day&apos;s photographs and a shared record of
-            what happened when a group of creative people wandered the city with cameras.
-          </p>
-        </div>
-      </section>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-photo is-active" style="background-image:url('2008/assets/entries/03/01.webp')" aria-hidden="true"></div>
+      <div class="hero-photo" aria-hidden="true"></div>
+      <div class="hero-wash"></div>
+      <p class="hero-kicker">A four-hour exercise in paying attention</p>
+      <h1><span>Same city.</span><em>Different eyes.</em></h1>
+      <div class="hero-meta">
+        <p>Kansas City<br>2000—2010</p>
+        <p>01 city<br>04 hours<br>10 final frames</p>
+      </div>
+      <button class="scroll-cue" type="button" aria-label="Scroll to the story"><span>BEGIN THE HUNT</span><b>↓</b></button>
+      <a class="hero-credit" href="2008/entries/03.html#frame-01">2008 PHOTO / ANDREW TASCH ↗</a>
+    </section>
 
-      <footer>
-        <p>
-          This page is here as a small marker for Urban Photo Safari&apos;s past. Something new may happen
-          here someday. For now, it remembers the pictures, the people, and the fun of the chase.
-        </p>
-      </footer>
-    </main>
-  </body>
+    <section class="manifesto section-pad">
+      <p class="section-label">[ THE PREMISE ]</p>
+      <p class="statement reveal">Give a group of people the same streets, the same deadline, and the same brief.</p>
+      <p class="statement statement-alt reveal">What comes back is never the same.</p>
+      <div class="manifesto-note reveal">
+        <span>Urban Photo Safari wasn’t really a photography contest.</span>
+        <p>It was a live experiment in perspective—a reason to move slower, look harder, and discover how differently creative people read the world.</p>
+      </div>
+    </section>
+
+    <section class="rules" aria-labelledby="rules-title">
+      <div class="rules-head section-pad">
+        <p class="section-label">[ RULES OF THE HUNT ]</p>
+        <h2 id="rules-title">Four hours.<br>No prescribed subject.<br>Follow your eye.</h2>
+      </div>
+      <ol class="rule-list">
+        <li><span>01</span><b>MEET</b><p>Latte Land, Country Club Plaza. Cameras ready. Coffee encouraged.</p></li>
+        <li><span>02</span><b>ROAM</b><p>A boundary map, a city, and exactly four hours to make something of it.</p></li>
+        <li><span>03</span><b>EDIT</b><p>Return with hundreds. Choose ten. Attention becomes authorship.</p></li>
+        <li><span>04</span><b>SHARE</b><p>Vote, trade stories, take home the whole day on a silver CD.</p></li>
+      </ol>
+    </section>
+
+    <section class="archive-gallery" id="archive" aria-labelledby="archive-title">
+      <div class="archive-gallery-head"><div><p class="section-label">[ SEVEN EDITIONS / ONE CITY ]</p><h2 id="archive-title">The archive,<br>in pictures.</h2></div><p>Each year had its own eye. Pick an edition to explore its site, photographs, and surviving stories.</p></div>
+      <nav class="archive-gallery-grid" aria-label="Year archives">
+        <a class="archive-card" href="2001/" aria-label="Explore the 2001 archive"><img src="2001/images/HeatherMcKenzie/3.jpg" alt="" loading="lazy"><small>URBAN PHOTO SAFARI / 2001</small><div><strong>2001</strong><span>ENTER THE ARCHIVE <b class="arrow" aria-hidden="true">↗</b></span></div></a>
+        <a class="archive-card" href="2002/" aria-label="Explore the 2002 archive"><img src="2002/assets/Eric/05big.jpg" alt="" loading="lazy"><small>URBAN PHOTO SAFARI / 2002</small><div><strong>2002</strong><span>ENTER THE ARCHIVE <b class="arrow" aria-hidden="true">↗</b></span></div></a>
+        <a class="archive-card" href="2003/" aria-label="Explore the 2003 archive"><img src="images/archive-2003.png" alt="" loading="lazy"><small>URBAN PHOTO SAFARI / 2003</small><div><strong>2003</strong><span>ENTER THE ARCHIVE <b class="arrow" aria-hidden="true">↗</b></span></div></a>
+        <a class="archive-card" href="2004/" aria-label="Explore the 2004 archive"><img src="2004/assets/contestants/DeanOlufson/Photo002.jpg" alt="" loading="lazy"><small>URBAN PHOTO SAFARI / 2004</small><div><strong>2004</strong><span>ENTER THE ARCHIVE <b class="arrow" aria-hidden="true">↗</b></span></div></a>
+        <a class="archive-card" href="2006/" aria-label="Explore the 2006 archive"><img src="2006/m/contestant17/01a.jpg" alt="" loading="lazy"><small>URBAN PHOTO SAFARI / 2006</small><div><strong>2006</strong><span>ENTER THE ARCHIVE <b class="arrow" aria-hidden="true">↗</b></span></div></a>
+        <a class="archive-card" href="2007/" aria-label="Explore the 2007 archive"><img src="2007/assets/photos/03-03.jpg" alt="" loading="lazy"><small>URBAN PHOTO SAFARI / 2007</small><div><strong>2007</strong><span>ENTER THE ARCHIVE <b class="arrow" aria-hidden="true">↗</b></span></div></a>
+        <a class="archive-card" href="2008/" aria-label="Explore the 2008 archive"><img src="2008/assets/entries/57/01.webp" alt="" loading="lazy"><small>URBAN PHOTO SAFARI / 2008</small><div><strong>2008</strong><span>ENTER THE ARCHIVE <b class="arrow" aria-hidden="true">↗</b></span></div></a>
+      </nav>
+    </section>
+
+    <section class="shift section-pad">
+      <p class="section-label">[ THE SHIFT ]</p>
+      <div class="shift-grid">
+        <h2 class="reveal">A contest became a community.<br>A website became a yearly design laboratory.</h2>
+        <div class="shift-copy reveal">
+          <p>Every edition was a chance to rebuild the identity, rethink the interface, and test a new visual language in public.</p>
+          <p>That practice still matters: make the concept clear, create a system with range, and let every detail carry the same idea.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="field-notes section-pad" id="field-notes">
+      <p class="section-label">[ FIELD NOTES / 2026 ]</p>
+      <div class="notes-grid">
+        <div>
+          <h2>Still looking.<br>Still making.</h2>
+          <div class="mark" aria-hidden="true"><span>U</span><span>P</span><span>S</span></div>
+        </div>
+        <div class="note-body">
+          <p>Urban Photo Safari began as my creative playground. Reframed now, it connects two parts of my practice that were never truly separate: building durable product systems and creating expressive brand experiences.</p>
+          <p>The common thread is direction—finding the idea, making it legible, and giving teams a system they can carry forward.</p>
+          <dl>
+            <div><dt>ROLE</dt><dd>Concept, identity, art direction, digital design</dd></div>
+            <div><dt>ORIGINAL RUN</dt><dd>Kansas City / 2000—2010</dd></div>
+            <div><dt>REIMAGINED</dt><dd>2026 / An ongoing practice</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>LOOK CLOSER.</p>
+    <p>Urban Photo Safari © 2000—2026</p>
+    <a href="#top">BACK TO TOP ↑</a>
+  </footer>
+  <script src="script.js?v=20261103-2"></script>
+</body>
 </html>
