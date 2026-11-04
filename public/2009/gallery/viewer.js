@@ -26,8 +26,8 @@ function openGallery(slug, trigger) {
   opener = trigger || document.querySelector('.contestant[href="#' + slug + '"]');
   title.textContent = galleries[slug].name;
   note.textContent = galleries[slug].submitted
-    ? 'Photographs selected for the 2009 vote. Their original order is unknown.'
-    : 'Photographs from 2009. The final selection was not available.';
+    ? 'Photographs from the 2009 Safari.'
+    : 'More photographs from the day.';
   showPhoto(0);
   if (!dialog.open) dialog.showModal();
   closeButton.focus();
