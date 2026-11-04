@@ -40,6 +40,8 @@
   letter-spacing: -.03em;
 }
 
+#archive-year-nav .archive-brand:hover { color: #f1ff45; }
+
 #archive-year-nav .archive-brand::before {
   content: 'UPS';
   display: grid;

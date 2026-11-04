@@ -9,6 +9,7 @@ button,a{touch-action:manipulation}
 
 .archive-rail{position:sticky;top:0;z-index:20;display:grid;grid-template-columns:minmax(170px,1fr) auto minmax(170px,1fr);align-items:center;gap:24px;height:52px;padding:0 22px;background:#101010;color:#f3efe6;font:500 11px/1.2 var(--mono);letter-spacing:.025em}
 .rail-brand{display:flex;align-items:center;gap:11px;white-space:nowrap;font:700 13px/1.2 var(--sans);letter-spacing:-.03em}
+.rail-brand:hover{color:var(--acid)}
 .rail-brand::before{content:'UPS';display:grid;place-items:center;width:29px;height:29px;flex:none;border:1px solid var(--acid);border-radius:50%;color:var(--acid);font:700 10px/1 var(--sans)}
 .rail-years{display:flex;align-items:center;gap:5px;min-width:0;overflow-x:auto;white-space:nowrap;scrollbar-width:none}.rail-years::-webkit-scrollbar{display:none}
 .rail-years a{display:grid;flex:none;place-items:center;min-width:49px;height:29px;padding:0 9px;border-radius:2px}.rail-years a:hover{background:#333}.rail-years [aria-current]{background:var(--acid);color:#101010}

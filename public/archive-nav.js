@@ -8,7 +8,7 @@
   nav.id = 'archive-year-nav';
   nav.setAttribute('aria-label', 'Switch archive year');
   nav.innerHTML = `
-    <span class="archive-brand">URBAN PHOTO SAFARI</span>
+    <a class="archive-brand" href="/" aria-label="Urban Photo Safari main site">URBAN PHOTO SAFARI</a>
     <span class="archive-years">${years.map(item => `<a class="archive-year" href="/${item}/"${item === year ? ' aria-current="page"' : ''}>${item}</a>`).join('')}</span>
     <a class="archive-home" href="/" aria-label="Main site">MAIN SITE ↗</a>`;
 
