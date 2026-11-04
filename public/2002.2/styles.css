@@ -1,0 +1,67 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html { min-width: 320px; }
+body { margin: 0; min-height: 100vh; background: #2f2616 url('assets/images/el-background01.gif') repeat; color: white; font: 11px Arial, Helvetica, sans-serif; }
+a { color: #ff9900; }
+a:hover, a:focus-visible { color: white; }
+.site-page { padding: clamp(18px, 8vh, 78px) 12px 28px; }
+.page-wrap { max-width: 760px; margin: 0 auto; }
+.split-card { display: grid; grid-template-columns: 346px minmax(0, 414px); align-items: stretch; }
+.feature-photo { min-width: 0; }
+.feature-photo img { display: block; width: 100%; height: auto; }
+.orange-panel { min-width: 0; min-height: 420px; padding: 27px 32px 20px 33px; display: flex; flex-direction: column; align-items: stretch; background: #e8a43b url('assets/images/el-background02.gif') repeat; }
+.wordmark { display: block; width: 100%; max-width: 349px; height: auto; }
+.panel-top { display: flex; justify-content: space-between; align-items: flex-start; margin-top: 14px; min-height: 121px; }
+.panel-top > img { flex: none; }
+.section-nav { display: flex; gap: 2px; align-items: flex-start; }
+.section-nav a { display: block; width: 16px; height: 116px; position: relative; overflow: hidden; }
+.section-nav a img { width: 16px; height: 116px; display: block; opacity: .78; }
+.section-nav a:hover img, .section-nav a:focus-visible img, .section-nav a[aria-current] img { opacity: 1; }
+.section-nav a span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.page-content { text-align: right; line-height: 1.4; margin-top: 0; flex: 1; }
+.page-content p { margin: 0 0 13px; }
+.contestant-links { list-style: none; margin: 0; padding: 0; font-weight: bold; }
+.contestant-links a { color: white; text-decoration: underline; }
+.contestant-links a:hover, .contestant-links a:focus-visible { color: #2f2616; }
+.date-mark { align-self: flex-end; display: block; width: 102px; height: 20px; margin-top: 16px; }
+.boundaries { line-height: 1.5; }
+.page-wrap footer { margin-left: 346px; padding: 6px 2px; text-align: right; color: white; font-size: 10px; line-height: 1.35; }
+.page-wrap footer span { display: block; }
+.gallery-page { padding: 0 12px 32px; }
+.gallery-shell { max-width: 680px; margin: 0 auto; }
+.gallery-header { padding: 28px 15px 14px; }
+.gallery-header img { display: block; max-width: 100%; height: auto; }
+.gallery-panel { min-height: 350px; padding: 38px 28px 24px; }
+.thumb-grid { max-width: 545px; margin: 0 auto; display: grid; grid-template-columns: repeat(5, 75px); justify-content: space-between; gap: 36px 10px; }
+.thumb-grid a { display: block; width: 75px; height: 100px; outline-offset: 3px; }
+.thumb-grid img { display: block; width: 75px; height: 100px; object-fit: cover; border: 0; }
+.thumb-grid a:hover img, .thumb-grid a:focus-visible img { outline: 2px solid #ff9900; }
+.gallery-credit { background: #e8a43b url('assets/images/el-background02.gif') repeat; color: #2f2616; min-height: 100px; padding: 4px 10px; display: flex; justify-content: flex-end; align-items: center; gap: 15px; text-align: right; }
+.gallery-credit a { color: #2f2616; }
+.gallery-credit h1 { font-size: 12px; margin: 8px 0 2px; }
+.gallery-credit p { font-size: 11px; margin: 0; }
+.gallery-credit img { flex: none; display: block; width: 75px; height: 95px; object-fit: cover; }
+#photo-dialog { position: fixed; inset: 0; width: min(95vw, 1000px); max-width: none; max-height: 94vh; padding: 12px; border: 1px solid #c88732; background: #2f2616 url('assets/images/el-background01.gif') repeat; color: white; }
+#photo-dialog::backdrop { background: rgb(0 0 0 / .86); }
+.dialog-top, .dialog-bottom { display: flex; justify-content: space-between; align-items: center; gap: 14px; font-size: 11px; }
+.dialog-top { margin-bottom: 12px; }
+.dialog-bottom { margin-top: 10px; }
+#photo-dialog button { border: 0; background: #e8a43b; color: #2f2616; padding: 7px 9px; font: bold 11px Arial, Helvetica, sans-serif; cursor: pointer; }
+#photo-dialog button:hover, #photo-dialog button:focus-visible { background: white; }
+#dialog-photo { display: block; max-width: 100%; max-height: calc(94vh - 110px); width: auto; height: auto; margin: 0 auto; object-fit: contain; }
+#photo-caption { text-align: center; }
+@media (max-width: 710px) {
+  .site-page { padding-top: 16px; }
+  .split-card { display: flex; flex-direction: column; max-width: 414px; margin: 0 auto; }
+  .feature-photo img { max-height: 260px; object-fit: cover; object-position: center 36%; }
+  .orange-panel { min-height: 360px; }
+  .page-wrap footer { max-width: 414px; margin: 0 auto; }
+  .gallery-panel { min-height: 0; }
+}
+@media (max-width: 500px) {
+  .orange-panel { padding: 24px 20px 18px; }
+  .gallery-panel { padding: 22px 8px; }
+  .thumb-grid { grid-template-columns: repeat(3, 75px); justify-content: center; column-gap: 22px; row-gap: 22px; }
+  .dialog-bottom { gap: 5px; }
+  #photo-caption { font-size: 10px; }
+}
