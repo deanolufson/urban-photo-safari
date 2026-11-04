@@ -1,0 +1,692 @@
+[
+  {
+    "name": "Addison Lee",
+    "votes": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      1
+    ]
+  },
+  {
+    "name": "Amanda Loftin",
+    "votes": [
+      0,
+      2,
+      3,
+      1,
+      5,
+      0,
+      0,
+      0,
+      5,
+      0
+    ]
+  },
+  {
+    "name": "Ameya Vaidya",
+    "votes": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Ben Tipler",
+    "votes": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      3,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "Bob Neighbor",
+    "votes": [
+      1,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Brian Wright",
+    "votes": [
+      0,
+      2,
+      1,
+      3,
+      3,
+      0,
+      4,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "name": "Caleb Wright",
+    "votes": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Carrie Kucharski",
+    "votes": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      3,
+      5,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Celeste Lindell",
+    "votes": [
+      0,
+      0,
+      0,
+      13,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Christie Courville & Michael Cootes",
+    "votes": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "David Kucharski",
+    "votes": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Dawn Boomsma",
+    "votes": [
+      1,
+      0,
+      4,
+      0,
+      0,
+      1,
+      2,
+      0,
+      4,
+      2
+    ]
+  },
+  {
+    "name": "Dean Olufson",
+    "votes": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0
+    ]
+  },
+  {
+    "name": "Eric Diebold",
+    "votes": [
+      1,
+      2,
+      1,
+      4,
+      0,
+      0,
+      0,
+      2,
+      2,
+      0
+    ]
+  },
+  {
+    "name": "Eric Martin",
+    "votes": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Grant Nelson",
+    "votes": [
+      2,
+      0,
+      3,
+      0,
+      0,
+      2,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Gretchen Hembree",
+    "votes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "Gwen Sprague",
+    "votes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "name": "Jaron Ruckman",
+    "votes": [
+      2,
+      0,
+      1,
+      0,
+      0,
+      2,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "name": "Jeff Nissen",
+    "votes": [
+      0,
+      1,
+      0,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "Jenae Weinbrenner",
+    "votes": [
+      1,
+      0,
+      2,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Jenny Buck",
+    "votes": [
+      0,
+      0,
+      4,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Joe Calton",
+    "votes": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "name": "John Davis",
+    "votes": [
+      3,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "Joseph Tierney-Kanning",
+    "votes": [
+      0,
+      1,
+      7,
+      2,
+      0,
+      2,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "name": "Karl Strohmeier",
+    "votes": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Katie Kucharski",
+    "votes": [
+      1,
+      0,
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Kelsy Crow",
+    "votes": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Kyle Johnston",
+    "votes": [
+      0,
+      0,
+      2,
+      0,
+      2,
+      1,
+      4,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "name": "Laura Noll",
+    "votes": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      4,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "Leah Parsons",
+    "votes": [
+      1,
+      3,
+      3,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "name": "Lisa Johnston",
+    "votes": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      2,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Patrick McCormack & Leah Goldblatt",
+    "votes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      12,
+      0
+    ]
+  },
+  {
+    "name": "Rajiv Jain",
+    "votes": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "name": "Ryan Hembree",
+    "votes": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      9
+    ]
+  },
+  {
+    "name": "Ryan Nicholson",
+    "votes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "Samantha Hembree",
+    "votes": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Sean Berger",
+    "votes": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "name": "Shelly Olufson & Ethan Olufson",
+    "votes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Starr Hayward",
+    "votes": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "name": "Stephan Peterson",
+    "votes": [
+      2,
+      1,
+      3,
+      0,
+      0,
+      1,
+      1,
+      3,
+      1,
+      0
+    ]
+  },
+  {
+    "name": "Stephanie Swisher",
+    "votes": [
+      2,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "name": "Stephen Carlson",
+    "votes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "name": "Susan Giffin",
+    "votes": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Tom Page",
+    "votes": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "Uttara Paingankar",
+    "votes": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      0
+    ]
+  }
+]

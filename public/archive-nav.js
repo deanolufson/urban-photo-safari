@@ -1,9 +1,9 @@
 (() => {
-  const match = location.pathname.match(/^\/(2001|2002|2003|2004|2006|2007|2008|2009)(?:\/|$)/);
+  const match = location.pathname.match(/^\/(2001|2002|2003|2004|2006|2007|2008|2009|2011)(?:\/|$)/);
   if (!match || !document.body || document.getElementById('archive-year-nav')) return;
 
   const year = match[1];
-  const years = ['2001', '2002', '2003', '2004', '2006', '2007', '2008', '2009'];
+  const years = ['2001', '2002', '2003', '2004', '2006', '2007', '2008', '2009', '2011'];
   const nav = document.createElement('nav');
   nav.id = 'archive-year-nav';
   nav.setAttribute('aria-label', 'Switch archive year');
