@@ -41,6 +41,8 @@ const photographs = [
   { year: '2001', name: 'Jon Northington', src: '2001/images/JonNorthington/10.jpg' },
   { year: '2001', name: 'Jon Northington', src: '2001/images/JonNorthington/18.jpg' },
   { year: '2001', name: 'Kevin Sisemore', src: '2001/images/KevinSisemore/16.jpg' },
+  { year: '2004', name: 'Eric Diebold', src: 'images/eric-diebold-2004-tower.jpg' },
+  { year: '2006', name: 'Eric Diebold', src: 'images/eric-diebold-2006-fence.jpg' },
   { year: '2009', name: 'Candida Kohler', src: '2009/gallery/images/candida-kohler-04.jpg' },
   { year: '2009', name: 'Erin Northington', src: '2009/gallery/images/erin-northington-09.jpg' },
   { year: '2009', name: 'Jamieson', src: '2009/gallery/images/jamieson-02.jpg' },
