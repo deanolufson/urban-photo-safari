@@ -34,7 +34,27 @@ const photographs = [
   { id: '47', name: 'Ray Ruppert' },
   { id: '49', name: 'Ryan Hembree' },
   { id: '54', name: 'Shelly Hatton' },
-  { id: '57', name: 'Steve Wall' }
+  { id: '57', name: 'Steve Wall' },
+  { year: '2001', name: 'Andy VanBlarcum', src: '2001/images/AndyVanBlarcum/21.jpg' },
+  { year: '2001', name: 'Andy VanBlarcum', src: '2001/images/AndyVanBlarcum/56.jpg' },
+  { year: '2001', name: 'Eric Diebold', src: '2001/images/EricDiebold/22.jpg' },
+  { year: '2001', name: 'Jon Northington', src: '2001/images/JonNorthington/10.jpg' },
+  { year: '2001', name: 'Jon Northington', src: '2001/images/JonNorthington/18.jpg' },
+  { year: '2001', name: 'Kevin Sisemore', src: '2001/images/KevinSisemore/16.jpg' },
+  { year: '2009', name: 'Candida Kohler', src: '2009/gallery/images/candida-kohler-04.jpg' },
+  { year: '2009', name: 'Erin Northington', src: '2009/gallery/images/erin-northington-09.jpg' },
+  { year: '2009', name: 'Jamieson', src: '2009/gallery/images/jamieson-02.jpg' },
+  { year: '2009', name: 'Jeff Nissen', src: '2009/gallery/images/jeff-nissen-01.jpg' },
+  { year: '2009', name: 'Jon Northington', src: '2009/gallery/images/jon-northington-10.jpg' },
+  { year: '2009', name: 'Kevin Orr', src: '2009/gallery/images/kevin-orr-01.jpg' },
+  { year: '2009', name: 'Kyle Johnston', src: '2009/gallery/images/kyle-johnston-01.jpg' },
+  { year: '2009', name: 'Robin & Bill Hooper', src: '2009/gallery/images/robin-bill-hooper-01.jpg' },
+  { year: '2009', name: 'Ryan Hembree', src: '2009/gallery/images/ryan-hembree-03.jpg' },
+  { year: '2011', name: 'Dean Olufson', src: '2011/assets/photos/IMG_0573.jpg' },
+  { year: '2011', name: 'Dean Olufson', src: '2011/assets/photos/IMG_0505.jpg' },
+  { year: '2011', name: 'Dean Olufson', src: '2011/assets/photos/IMG_0500.jpg' },
+  { year: '2011', name: 'Dean Olufson', src: '2011/assets/photos/IMG_0533.jpg' },
+  { year: '2011', name: 'Dean Olufson', src: '2011/assets/photos/IMG_0435.jpg' }
 ];
 
 // Paths resolve from this script, so the local source preview and deployed site use the same files.
@@ -54,7 +74,7 @@ let activeLayer = 0;
 let currentPhoto = null;
 
 function showPhoto(photo, first = false) {
-  const imageURL = new URL(`2008/assets/entries/${photo.id}/01.webp`, assetRoot).href;
+  const imageURL = new URL(photo.src || `2008/assets/entries/${photo.id}/01.webp`, assetRoot).href;
   const image = new Image();
   image.onload = () => {
     const nextLayer = first ? activeLayer : 1 - activeLayer;
@@ -65,8 +85,8 @@ function showPhoto(photo, first = false) {
       activeLayer = nextLayer;
     }
     currentPhoto = photo;
-    photoCredit.textContent = `2008 PHOTO / ${photo.name} ↗`;
-    photoCredit.href = new URL(`2008/entries/${photo.id}.html#frame-01`, assetRoot).href;
+    photoCredit.textContent = `${photo.year || '2008'} PHOTO / ${photo.name} ↗`;
+    photoCredit.href = new URL(photo.src || `2008/entries/${photo.id}.html#frame-01`, assetRoot).href;
     if (!reduced) setTimeout(nextPhoto, 8000);
   };
   image.onerror = () => { if (!reduced) setTimeout(nextPhoto, 8000); };
